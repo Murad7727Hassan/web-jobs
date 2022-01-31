@@ -1,0 +1,105 @@
+:root
+{
+ --main-color:#F5F5F5;
+ --secondery-color:#8DB48E;
+ --font-color:#4D724D;
+}
+body
+{
+    background-color: var(--main-color);
+ }
+header,footer
+{
+    background-color: var(--font-color);
+    color: var(--main-color);
+}
+.main-color
+{
+    background-color: var(--main-color);
+}
+.secondery-color
+{
+    background-color: var(--secondery-color);
+}
+.font-color
+{
+    color: var(--font-color);
+}
+.img-h
+{
+    width: 100%;
+    height: 52vh;
+}
+.navbar-expand-lg .navbar-nav .nav-link,.navbar-brand 
+{
+    color: var(--main-color);
+}
+a
+{
+    color: var(--font-color);
+    background-color:inherit;
+}
+.table-striped>tbody>tr td:first-child
+{
+    width: 20px;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg:var(--secondery-color);
+    color: var(--main-color);
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--main-color);
+    color: var(--font-color);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+ .table-striped>tbody>tr a {
+    background-color: transparent;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--font-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secondery-color)
+}
+.form-select
+{
+    border-radius: 0;
+}
+.form-select:focus {
+    border-color: var(--font-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secondery-color)
+}
+.btn-outline-secondary {
+    color: #fff;
+    background-color: var(--font-color);
+    border-color: var(--font-color);
+}
+.bg-w 
+{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
