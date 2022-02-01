@@ -1,12 +1,19 @@
 :root
 {
  --main-color:#F5F5F5;
- --secondery-color:#8DB48E;
- --font-color:#4D724D;
+ --secondery-color:#009688;
+ --font-color:#136f6e;
 }
 body
 {
     background-color: var(--main-color);
+ }
+ header
+ {
+     position: fixed;
+     top: 0;
+     width: 100vw;
+     z-index: 100;
  }
 header,footer
 {
@@ -16,6 +23,9 @@ header,footer
 .main-color
 {
     background-color: var(--main-color);
+}
+.content{
+    margin-top: 20px;
 }
 .secondery-color
 {
@@ -141,10 +151,28 @@ color: white;
     border-radius: 20px;
     color: var(--font-color);
 }
+.Subscribe
+{ 
+    background: linear-gradient( 
+    198deg
+     , rgba(2,0,36,1) 0%, rgb(9 121 114 / 95%) 35%, rgb(77 114 77 / 67%) 98%);
+    color: white;
+}
+.Subscribe .btn-outline-primary
+{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+.Subscribe .btn-outline-primary:hover
+{
+background-color: var(--secondery-color);
 
-
-
-
+}
+ .login
+ {
+      width: 450px;
+      margin: auto;
+  }
 
 
 
