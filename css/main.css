@@ -59,6 +59,11 @@ a
     background-color: var(--font-color);
     border-color: var(--font-color);
 }
+.btn-login .btn-outline-primary {
+    color: #fff;
+    background-color: var(--font-color);
+    border-color: var(--main-color);
+}
 .text-primary {
     --bs-text-opacity: 1;
     color: var(--font-color);
