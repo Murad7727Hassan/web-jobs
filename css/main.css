@@ -126,9 +126,9 @@ a
 
 .connact .card-img, .card-img-top {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin: 20px auto;
+    width: 61px;
+    height: 60px;
+    margin: 10px auto;
 }
 
 /* strart about */
@@ -176,7 +176,6 @@ background-color: var(--secondery-color);
       width: 450px;
       margin: auto;
   }
-
 
 
 
