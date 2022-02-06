@@ -181,6 +181,12 @@ background-color: var(--secondery-color);
       width: 450px;
       margin: auto;
   }
+  .navbar .navbar-brand .collapse .navbar-nav .active
+{
+    color: rgb(85, 65, 65);
+    background-color: red;
+}
+
  
 
 
