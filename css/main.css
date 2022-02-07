@@ -186,8 +186,17 @@ background-color: var(--secondery-color);
     color: rgb(85, 65, 65);
     background-color: red;
 }
+section li 
+{
+    margin-bottom: .5rem;
+}
+section li a
+{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.2rem;
+  }
 
- 
 
 
 
